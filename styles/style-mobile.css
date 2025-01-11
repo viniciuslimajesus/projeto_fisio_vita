@@ -1,0 +1,163 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #f1f5ff;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+    padding: 15px;
+}
+
+div.logo {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #91AAF2;
+}
+
+div.logo > h1 {
+    padding: 8px 0;
+    font-size: 2.2em;
+    color: #6683d9;
+}
+
+.icone-menu, .pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 8px;
+    background-color: #e4e8f2;
+    border-radius: 4px;
+    font-size: 1.5em;
+}
+
+a#btn-header {
+    padding: 6px 12px;
+    background-color: #6683d9;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+nav.navigation {
+    display: none;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.8em;
+    color: #7a7a8a;
+}
+
+section.box-artigo-img h2 {
+    margin: 30px 0;
+    font-size: 2.5em;
+    color: #4557bf;
+}
+section.box-artigo-img span.texto-destaque {
+    color:#000080;
+}
+
+section.container {
+    padding: 35px;
+    margin: 30px 0;
+}
+
+section.mais {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+div.social-media {
+    display: none;
+}
+
+/*Estilo Botões*/
+.btn {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: solid 2px #4557bf;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #4557bf;
+}
+
+/*Estilo Botões icones*/
+
+.btn-icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #bbccff;
+
+}
+
+div.title-extra {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+div.title-extra h2 {
+    margin: 25px 0;
+    font-size: 2.2em;
+    text-decoration: underline;
+    color: #6683d9;
+}
+
+section.cards {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 28px 0px;
+}
+
+.card-wrap {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    flex-shrink: 1;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+/*Sombra dos cards*/
+.sombra-outside {
+    box-shadow: 13px 13px 24px -10px rgba(0, 0, 0, 0.7),
+     -13px -13px 24px 0px rgba(255, 255, 255, 1);
+}
+
+.sombra-inside {
+    box-shadow: inset 10px 10px 20px -10px rgba(0, 0, 0, 0.7), 
+    inset -10px -10px 24px 0px rgba(255, 255, 255, 1);;
+}
+
+.card-wrap a {
+    padding: 30px 0;
+    text-decoration: none;
+    color: #6683d9;
+}
+
+.icone-wrap h3{
+    padding: 15px 0;
+    font-size: 1.5em;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
