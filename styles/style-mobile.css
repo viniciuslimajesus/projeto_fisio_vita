@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&family=The+Nautigal:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -157,7 +158,39 @@ section.cards {
     font-size: 1.5em;
 }
 
+.name-ceo {
+    display: flex;
+    align-items: center;
+    gap: 0 50px;
+}
+
+.name-ceo div:first-child p {
+    font-family: "The Nautigal", serif;
+    font-size: 3em;
+    font-weight: 700;
+    color: #4557BF;
+}
+
+.name-ceo div:last-child p {
+    color: #4557BF;
+}
+
+div#destaque-circle {
+    position: relative;
+}
+
+div#destaque-circle > span::after {
+    position: absolute;
+    left: -13px;
+    bottom: 13px;
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
 footer {
-    padding: 10px;
+    padding: 25px;
     text-align: center;
 }
