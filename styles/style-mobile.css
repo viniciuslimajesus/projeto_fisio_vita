@@ -158,6 +158,21 @@ section.cards {
     font-size: 1.5em;
 }
 
+div.box-img {
+    width: 100%;
+    height: 300px;
+    background-color: #91aaf2;
+    border-top-right-radius: 40px;
+}
+
+section.artigo-quiro {
+    background-color: #fff;
+}
+
+section.artigo-quiro > article {
+    padding: 35px;
+}
+
 .name-ceo {
     display: flex;
     align-items: center;
@@ -172,7 +187,16 @@ section.cards {
 }
 
 .name-ceo div:last-child p {
+    font-size: 1.5em;
+    font-weight: bold;
     color: #4557BF;
+} 
+
+div#destaque-circle > p {
+    padding-left: 14px;
+    font-weight: normal;
+    font-size: 1em;
+    color: #5F5F5F;
 }
 
 div#destaque-circle {
@@ -181,12 +205,12 @@ div#destaque-circle {
 
 div#destaque-circle > span::after {
     position: absolute;
-    left: -13px;
+    left: 1px;
     bottom: 13px;
     content: '';
     width: 6px;
     height: 6px;
-    background-color: #000;
+    background-color: #5F5F5F;
     border-radius: 50%;
 }
 
