@@ -33,6 +33,7 @@ div.logo > h1 {
     padding: 8px 0;
     font-size: 2.2em;
     color: #6683d9;
+    user-select: none;
 }
 
 .icone-menu, .pesquisa {
