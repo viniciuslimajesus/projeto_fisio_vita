@@ -46,6 +46,17 @@ nav.navigation a:hover::after {
     transform: scaleX(1);
 }
 
+section.box-artigo-img {
+    background-image: url(../images/img1.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+section.box-artigo-img > article {
+    width: 50%;
+}
+
 #box-btn-menu {
     display: none;
 }
@@ -90,15 +101,17 @@ div.btn-social {
 
 section.cards {
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: center;
+    column-gap: 80px;
+}
+
+.card-wrap {
+    width: 395px;
+    font-size: .8em;
 }
 
 section.artigo-quiro {
     display: flex;
-}
-
-div.box-img {
-    height: 551px;
 }
 
 div.box-img > img {
