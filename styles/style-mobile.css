@@ -222,17 +222,37 @@ div#destaque-circle > span::after {
     border-radius: 50%;
 }
 
+section.logo-marcas {
+    height: 40vh;
+    background-color: #4557BF;
+}
+
 footer {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-around;
-    padding: 25px;
+    gap: 40px;
     background-color: #91AAF2;
 }
 
+footer section {
+    padding: 0 25px;
+}
+
+footer p {
+    margin: 26px 0;
+    color: #fff;
+}
+
 section.rodape-logo h2 {
+    margin-top: 25px;
     text-align: center;
     font-size: 2.1em;
+    color: #fff;
+}
+
+footer h3 {
+    margin-bottom: 22px;
+    color: #fff;
 }
 
 div.rodape-social {
@@ -248,5 +268,27 @@ div.btn-social-rodape {
 }
 
 footer ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
     list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section#copyright {
+    border-top: 1px solid #fff;
+    text-align: center;
+}
+
+section#msg-final {
+    background-color: #f1f5ff;
+    text-align: center;
+}
+
+section#msg-final > p {
+    color: #333333;
 }

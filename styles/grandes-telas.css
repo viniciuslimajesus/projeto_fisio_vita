@@ -90,6 +90,10 @@ div.social-media {
 }
 
 div.btn-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
     transform: translateY(12px);
 }
 
